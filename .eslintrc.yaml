@@ -16,6 +16,6 @@ overrides:
       - plugin:@lichtblick/typescript
     parserOptions:
       project: ./tsconfig.json
-rules:
-  #There are enums in this project that don't follow this rule. It can be revisited in the future
-  "@typescript-eslint/no-unnecessary-condition": off
+    rules:
+      #There are enums in this project that don't follow this rule and we're not sure about the side effects of changing it. It can be revisited in the future
+      "@typescript-eslint/prefer-literal-enum-member": off
