@@ -1,3 +1,3 @@
-/** @module @foxglove/ulog/web */
+/** @module @lichtblick/ulog/web */
 
 export * from "./BlobReader";

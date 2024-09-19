@@ -1,3 +1,3 @@
-/** @module @foxglove/ulog/node */
+/** @module @lichtblick/ulog/node */
 
 export * from "./FileReader";
