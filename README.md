@@ -1,4 +1,4 @@
-# @foxglove/ulog
+# @lichtblick/ulog
 
 > _PX4 ULog file reader_
 
@@ -7,8 +7,8 @@ A web and node.js TypeScript library for reading [PX4 ULog](https://docs.px4.io/
 ## Usage
 
 ```typescript
-import { MessageType, ULog } from "@foxglove/ulog";
-import { FileReader } from "@foxglove/ulog/node";
+import { MessageType, ULog } from "@lichtblick/ulog";
+import { FileReader } from "@lichtblick/ulog/node";
 
 async function main() {
   const ulog = new ULog(new FileReader("../path/to/file.ulg"));
@@ -40,14 +40,10 @@ void main();
 
 ## License
 
-@foxglove/ulog is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+@lichtblick/ulog is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Releasing
 
 1. Run `yarn version --[major|minor|patch]` to bump version
 2. Run `git push && git push --tags` to push new tag
 3. GitHub Actions will take care of the rest
-
-## Stay in touch
-
-Join our [Slack channel](https://foxglove.dev/slack) to ask questions, share feedback, and stay up to date on what our team is working on.
